@@ -36,7 +36,7 @@ const WeatherApp = () => {
         {weatherData.map((data, index) => ( 
           <WeatherCardData weatherCardData={data}/>
         ))}
-          <Card sx={{ bgcolor: "transparent", color: "white", p: 2,border: 2, borderRadius: 4, minWidth: 300 }}>
+          <Card sx={{ bgcolor: "transparent",  background: "linear-gradient(to left bottom,#5617a7, #2c222c)", color: '#f2f2f2',p: 2,border: 2, borderRadius: 4, minWidth: 300 }}>
             <CardContent sx={{display: 'block'}}>
 
             <div>
