@@ -18,18 +18,18 @@ const WeatherCardData = ({ weatherCardData }) => {
 
   return (
     <>
-    <Card sx={{ bgcolor: "transparent",  background: "linear-gradient(to left bottom,#5617a7, #2c222c)",color: "white", mx:0.75, border: 1, borderRadius: 4, minWidth: 300 , minHeight: '65vh'}}>
+    <Card sx={{ bgcolor: "transparent",  background: "linear-gradient(to left bottom,#5617a7, #2c222c)",color: "white", mx:0.75, border: 1, borderRadius: 4, minWidth: 300 , minHeight: '60vh'}}>
       <CardContent>
         <Typography variant="h6" gutterBottom sx={{display: 'flex', justifyContent: 'left'}}>
           <img src={icon} alt="weather icon" />
           <div style={{padding: '5px 10px'}}>
-          <section style={{fontSize:'1rem'}}>{locationName}</section>
+          <section style={{fontSize:'1rem'}}>{locationName}, {location.country}</section>
           <section style={{fontSize:'0.75rem'}}> {date}</section>
           </div>
         </Typography>
         <Typography variant="h3">{tempC}</Typography>
         <Typography variant="subtitle1">Mostly Cloudy</Typography>
-        <section style={{paddingTop : '60px', position: 'static'}}> 
+        <section style={{paddingTop : '70px', position: 'absolute'}}> 
         <Typography variant="body2">Visibility: {visibility} | Feels Like: {feelsLike}</Typography>
         <Typography variant="body2">Humidity: {humidity} | wind: {wind}</Typography>
         </section>
