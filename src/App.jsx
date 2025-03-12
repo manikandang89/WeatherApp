@@ -9,11 +9,11 @@ import WeatherApp from './component/WeatherApp';
 
 function App() {
 
-
+  // bgcolor: "#4a148c",
 
   return (
     <> 
-    <Box sx={{ bgcolor: "#4a148c", color: "white"}}>
+    <Box sx={{ background: "linear-gradient(to left bottom,#9570c3,#6c5eb3, #9570c3)" , color: "white"}}>
       <WeatherApp />
     </Box>
     

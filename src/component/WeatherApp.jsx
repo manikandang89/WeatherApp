@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Card, CardContent, Typography, Container, IconButton, TextField } from "@mui/material";
+import { Card, CardContent, Typography, Container, IconButton, TextField, Box } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
@@ -31,14 +31,11 @@ const WeatherApp = () => {
   return (
     <div>
 
-<Container sx={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b)" }}>
-<Grid container spacing={2} justifyContent="center">
-        <Grid size={8}>
+<Container sx={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
+<Box sx={{display: 'flex'}}>
         {weatherData.map((data, index) => ( 
           <WeatherCardData weatherCardData={data}/>
         ))}
-        </Grid>
-        <Grid size={4}>
           <Card sx={{ bgcolor: "transparent", color: "white", p: 2,border: 2, borderRadius: 4, minWidth: 300 }}>
             <CardContent sx={{display: 'block'}}>
 
@@ -54,8 +51,7 @@ const WeatherApp = () => {
             </CardContent>
 
           </Card>
-        </Grid>
-      </Grid>
+      </Box>
     </Container>
       
     </div>
