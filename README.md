@@ -46,28 +46,8 @@ Before getting started, ensure you have the following installed:
 
 ## Project Structure
 
-```
-react-vitest-testing-tutorial/
-├── node_modules/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── TodoForm.tsx
-│   │   ├── TodoItem.tsx
-│   │   ├── TodoList.tsx
-│   │   └── TodoList.test.jsx
-│   │   
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── vitest.config.js
-├── vitest.setup.js
-├── package.json
-├── README.md
-└── ...other config files
-```
+
+
 
 - **components/**: Contains React components and their corresponding test files.
 
