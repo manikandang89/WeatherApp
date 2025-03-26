@@ -10,7 +10,6 @@ Welcome to the **Weather App** project! This repository accompanies a comprehens
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Running the Application](#running-the-application)
-- [Running Tests](#running-tests)
 
 
 ## Prerequisites
@@ -26,8 +25,8 @@ Before getting started, ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/manikandang89/Todo-Assessment.git
-   cd Todo-Assessment
+   git clone https://github.com/manikandang89/WeatherApp.git
+   cd WeatherApp
    ```
 
 2. **Install Dependencies:**
@@ -68,6 +67,6 @@ Or using Yarn:
 yarn dev
 ```
 
-Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to see the running application.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the running application.
 
 
