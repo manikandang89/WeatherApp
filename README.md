@@ -1,12 +1,93 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Welcome to the **Weather App** project! This repository accompanies a comprehensive To get weather details for input data provided city
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Running the Application](#running-the-application)
+- [Running Tests](#running-tests)
+
+
+## Prerequisites
+
+Before getting started, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/manikandang89/Todo-Assessment.git
+   cd Todo-Assessment
+   ```
+
+2. **Install Dependencies:**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Or using Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+## Project Structure
+
+```
+react-vitest-testing-tutorial/
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── TodoForm.tsx
+│   │   ├── TodoItem.tsx
+│   │   ├── TodoList.tsx
+│   │   └── TodoList.test.jsx
+│   │   
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── vitest.config.js
+├── vitest.setup.js
+├── package.json
+├── README.md
+└── ...other config files
+```
+
+- **components/**: Contains React components and their corresponding test files.
+
+
+## Running the Application
+
+To start the development server:
+
+Using npm:
+
+```bash
+npm run dev
+```
+
+Or using Yarn:
+
+```bash
+yarn dev
+```
+
+Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to see the running application.
+
+
